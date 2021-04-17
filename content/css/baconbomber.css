@@ -1,0 +1,28 @@
+.col-md-2.round-section > div,
+.col-md-3.round-section > div,
+.col-md-7.round-section {
+    border-radius: 25px !important;
+    border: 2px solid #2310d3;
+    padding: 20px;
+  }
+
+.clear {
+    clear: both;
+  }
+
+div.image-content img {
+    margin-top: 15px;
+    width: 100%;
+}
+.image-content {
+    text-align: center;
+}
+.ranger-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ranger-logo-image {
+    text-align: center;
+    width: 100%;
+}
