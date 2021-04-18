@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <!-- Local BaconBomber CSS -->
+        <link href="../content/css/baconbomber.css" rel="stylesheet" />
+        <!-- Local Bootstrap core CSS -->
+        <link href="../content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Local javaScript Query file -->
+        <script src="../content/jquery.3.2.1.mini.js"> </script>        
+    </head>
 <center><h1>Ranger Hunter Mod 20 Build</h1></center>
 
 <div class="container-fluid">
@@ -9,31 +17,53 @@
             <div class="ranger-logo">
                 <img src="../images/rangerimages.png" class="ranger-logo-image">
             </div>
+            <div class="notable-links-section">
+                <h2>Notable Links</h2>
+                <div>
+                    <span>
+                        <p><a href="https://docs.google.com/spreadsheets/d/15LyLdI1LphLlrvkK08OxZH5u415OtJwBdRdkYawXwOE/edit#gid=119945880">Excel Sheet items information</a></p>
+                        <p><a href="https://www.patreon.com/RainerNW/posts?tag=CharacterBuilder">The Rainer Tool</a></p>
+                        <p>Find more of Rainer's NWN content from his youtube videos, Discord server and pocket wiki</p>
+                        <p><a href="https://www.youtube.com/watch?v=wwnBKF0xpmQ">Guid on how to use Rainers CharacterBuilder</a></p>
+                        <p>The Wolf Pack discord server you need to ask about but it is worth getting an invite</p>
+                        <h4>Build cbf files for Rainers tool</h4>
+                        <ul>
+                            <li><p>This vigi mod 20 build got the highest score in Rainers Build Tool. Highest score doesn't mean best build, but it will give you a close to perfect build.<br />
+                                <a href="../buildfiles/Mod_20_Vigi_reworked.cbf">vigi mod 20 reworked build</a></p></li>
+                            <li><p>From the vigi build i have tried to build my own Ranger Hunter Build. As you can see there is some differences from the Vigi build.<br />
+                                <a href="../buildfiles/mod20_Hunter_ranger_own_build.cbf">BaconBomber mod 20 build</a></p></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
             <div class="companions-section">
                 <h2>Companions</h2>
                 <div>
                     <span>
-                        Abyssal Chicken (Active)
-                        Phase Spider - Phase Spider presence
-                        Staldorf - Staldorf presence
-                        Flame Sprite - Flamesprite's insight
-                        Wild Hunt Rider - Wild hunter's discipline
-                        Alchemist Exprimenter - Alchemist's discipline
-                        <br />
-                        <br />
-                        Acute Sense
-                        Gives the chance to up Combat advantage with 7,5% and give companion 7,5% critical strike advoidence for 15 seconds.
+                        <ul>
+                            <li>Abyssal Chicken (Active)</li>
+                            <li>Phase Spider - Phase Spider presence</li>
+                            <li>Staldorf - Staldorf presence</li>
+                            <li>Flame Sprite - Flamesprite's insight</li>
+                            <li>Wild Hunt Rider - Wild hunter's discipline</li>
+                            <li>Alchemist Exprimenter - Alchemist's discipline</li>
+                            <br />                            
+                            <li>Acute Sense<br />
+                            Gives the chance to up Combat advantage with 7,5% and give companion 7,5% critical strike advoidence for 15 seconds.</li>   
+                    </ul>
                     </span>
                 </div>
             </div>
             <div class="mounts-section">
                 <h2>Mounts</h2>
                 <span>
-                    King of Spines
-                    Commander Tyrannosaur
-                    Carpet of Flying
-                    Tenser's Floating Disk
-                    Arcane Whirlwind
+                    <ul>
+                        <li>King of Spines</li>
+                        <li>Commander Tyrannosaur</li>
+                        <li>Carpet of Flying</li>
+                        <li>Tenser's Floating Disk</li>
+                        <li>Arcane Whirlwind</li>
+                    </ul>
                 </span>
             </div>
             <div class="mount-insignia-section">
@@ -61,10 +91,11 @@
             </div>
             <div class="mount-powers-section">
                 <h2>Mount Powers</h2>
-                <span>                    
-                    Opportunnistic
-                    +4500 Combat Advantage
-                    +2700 Combined Rating
+                <span class="image-content">
+                    Opportunnistic<br />
+                    +4500 Combat Advantage<br />
+                    +2700 Combined Rating<br />
+                    <img src="../images/Mounts+mountpower-left.png" />
                 </span>
             </div>
             <div class="artifacts-section">
@@ -83,11 +114,6 @@
                     <span>
                         Hi, i'm BaconBomber<br /> Guild Lead of Phantom Knigts and i have been playing since Mod 14.<br /> 
                         I have created this build from different sources, but mostly using Discord server "The Wolf Pack" and using the Rainer tool to build characters to find the right stats and also using this Excel Sheet to see information about everything in the game. <br />
-                        <a href="https://docs.google.com/spreadsheets/d/15LyLdI1LphLlrvkK08OxZH5u415OtJwBdRdkYawXwOE/edit#gid=119945880">Excel Sheet items information</a><br />
-                        <a href="https://www.patreon.com/RainerNW/posts?tag=CharacterBuilder">The Rainer Tool</a><br />
-                        Find more of Rainer's NWN content from his youtube videos, like Discord server, pocket wiki etc...<br />
-                        <a href="https://www.youtube.com/watch?v=wwnBKF0xpmQ">here</a><br />
-                        The Wolf Pack discord server you need to ask about but it is worth getting an invite<br />
                     </span>
                 </div>
                 <div class="clear"></div>
@@ -110,18 +136,65 @@
             <div class="rotation-section">
                 <h2>Rotation(s)</h2>
                 <span class="rotation">
-                    My rotations is like this
+                    I have one main rotation i go for 
+                    <h4>Single target</h4>
                     <ol>
                         <li>Disruptive Shot (daily) + 10% dmg for 5 seconds</li>
                         <li>Constricting Arrow(Encounter, Strong grasping roots)</li>
                         <li>Longstrider Shot(Encounter)</li>
                         <li>Hindering Shot(Encounter, Weak grasping roots)</li>
                         <li>Aimed Shot(At-Will)</li>
+                        <li>Disruptive Shot (daily) + 10% dmg for 5 seconds</li>
+                        <li>Hindering Shot(Encounter, Weak grasping roots)</li>
+                        <li>Aimed Shot(At-Will)</li>
+                        <li>Hindering Shot(Encounter, Weak grasping roots)</li>
+                    </ol>
+                    <h4>Larger Mob groups</h4>
+                    <ol>
+                        <li>Disruptive Shot (daily) + 10% dmg for 5 seconds</li>
+                        <li>Constricting Arrow(Encounter, Strong grasping roots)</li>
+                        <li>Longstrider Shot(Encounter)</li>
+                        <li>Hindering Shot(Encounter, Weak grasping roots)</li>
+                        <li>Aimed Shot(At-Will)</li>
+                        <li><u>Shift to Meleestance</u></li>
+                        <li>Go to middle of group and use</li>
+                        <li>Steel Breeze(Encounter, 10% Stamina regeneration)</li>
+                        <li>Hindering Strike(Encounter, Strong Grasping Root)</li>
+                        <li><u>Shift to Ranged stance</u></li>
+                        <li><b>REPEAT</b></li>
                     </ol>
                 </span>
             </div>
-            <div class="boons-section">
+            <div class="boons-section image-content">
                 <h2>Boons</h2>
+                <span>
+                    <p>We go from Tier 1 to the Master Boons. </p>
+                    <p>At this moment (2021-04-18 or 18-04-2021) Sharandar still have a few boons left that i will add in time. From what i can see i will put the last boons into HP</p>
+                    <h4>Tier 1 Boons</h4>
+                    <img src="../images/BoonsTier1.png" />
+                    <p>5 for Power / 5 for Critical Strike / 5 for HP</p>
+                    <h4>Tier 2 Boons</h4>
+                    <img src="../images/BoonsTier2.png" />
+                    <p>5 for Power / 5 for Armor Penetration / 5 for Defense / 5 for HP / 5 for Movement Speed</p>
+                    <h4>Tier 3 Boons</h4>
+                    <img src="../images/BoonsTier3.png" />
+                    <p>5 for Power / 5 for Combat Advantage / 5 for Awareness / 4 for HP</p>
+                    <h4>Tier 4 Boons</h4>
+                    <img src="../images/BoonsTier4.png" />
+                    <p>5 for Power / 5 for Accuracy</p>
+                    <h4>Tier 5 Boons</h4>
+                    <img src="../images/BoonsTier5.png" />
+                    <p>4 for Forte / 4 for Action Point Gain</p>
+                    <h4>Master Boons</h4>
+                    <img src="../images/BoonsMaster.png" />
+                    <p>3 for Blood Lust for the Rank 2 improvement. (Change on Enounter use to do the following: Rank 2: Do an additional attack equal to 120% of your weapon damage plus 10% per rank)</p>
+                </span>
+                <span>
+                    <h4>Guild Boons</h4>
+                    <p>Offence: go for Critical Severity boon</p>
+                    <p>Defence: go for Defence boon</p>
+                    <p>Utility: I have the mount speed boon, but if you can go for the Revive Sickness boon</p>
+                </span>
             </div>
             <div class="enchantments-section">
                 <h2>Enchantments</h2>
@@ -135,6 +208,7 @@
             </div>
             <div class="consumables-section">
                 <h2>Consumables</h2>
+                <p>Concumables is important to get a high dmg output, but mostly used in endgame dungeons like TIC, TOMM, ZC</p>
                 <span>
                     <ul>
                         <li>Seared Tuna (SH Food Market)</li>

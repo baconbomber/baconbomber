@@ -14,7 +14,7 @@ div.image-content img {
     margin-top: 15px;
     width: 100%;
 }
-.image-content {
+.image-content > img{
     text-align: center;
 }
 .ranger-logo {
@@ -25,4 +25,8 @@ div.image-content img {
 .ranger-logo-image {
     text-align: center;
     width: 100%;
+}
+span {
+    font-family: 'Arima Madurai';
+    font-weight: 400;
 }
